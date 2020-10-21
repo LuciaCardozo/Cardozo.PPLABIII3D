@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/scripts.js" defer type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Anuncios</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+            <h1>Administracion</h1>
+            <img src="./img/Santa barbara Pier - Joao Andre O. Dias-flickr 1280x642.jpg" alt="">
+        <main>
+            <section class="container" id="dataIn">
+                <input type="text" id="txtId"  style="visibility: hidden;">
+                    <form>
+                        <fieldset>
+                        <legend>Informacion Del Anuncio</legend>
+                        <label>
+                            TITULO:
+                            <br>
+                            <input type="text" id="txtTitulo" required>
+                        </label>
+                        <br><br>
+                        <label>
+                            TRANSACCION:<br>
+                            <label for="rdoV">
+                                <input type="radio" name="vehicle" id="rdoM" value="Venta" checked>Venta
+                            </label>
+                            <label for="rdoA">
+                                <input type="radio" name="vehicle" id="rdoF" value="Alquiler">Alquiler
+                            </label>
+                        </label>
+                        <br><br>
+                        <label>
+                            DESCRIPCION:<br>
+                            <input type="text" id="txtDescripcion" required>
+                        </label>
+                        <br><br>
+                        <label>
+                            PRECIO:<br>
+                            <input type="text" id="txtPrecio" required>
+                        </label>
+                        <label>
+                            <br><br>
+                            <img src="./img/descarga.png" alt="" style="width: 25px; height: 20px;"><input type="text" id="txtPuerta" required>
+                            <img src="./img/speedometer.png" alt="" style="height: 20px; width: 25px;" ><input type="text" id="txtKM" required> 
+                            <input type="text" id="txtPotencia" required>
+                        </label>
+                        </fieldset>
+                        <button id="btnGuardar" type="submit">Guardar</button>
+                        
+                    </form>
+                </section>
+                
+                <section class="container">
+                    <div id="divTabla"></div>
+                </section>
+        </main>
+        <section class="container">
+            <div id="divTabla"></div>
+        </section>
+        
+        <div class="sk-circle" id="spinnerCircle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+        <footer>
+            <p>Todos los derechos Reservados 2019 &copy;</p>
+            <nav>
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Anuncios</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </footer>
+</body>
+</html>
